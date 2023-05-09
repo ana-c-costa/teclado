@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teclado</title>
+    <style>
+    
+    body
+    {
+        background-color: mediumslateblue;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .teclado
+    {
+        background-color: rgb(29, 29, 29);
+        width: 1300px; /*largura*/
+        height: 620px; /*altura*/
+        margin-top: 80px;
+        margin-left: 150px;
+        align-items: center;
+        align-content: center; /*alinhar-conteúdo:*/
+        flex-direction: column;
+    }
+    .div1
+    {
+        background-color: blueviolet;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        margin-top: 35px;
+        flex-direction: column;
+    }
+    .div2
+    {
+        background-color: rgb(166, 216, 119);
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+
+    }
+    .div3
+    {
+        background-color: rgb(121, 167, 78);
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .div4
+    {
+        background-color: rgb(206, 55, 155);
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .div5
+    {
+        background-color: rgb(142, 126, 212);
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .div6
+    {
+        background-color: rgb(87, 155, 187);
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .esc
+    {
+        background-color: white;
+        width: 70px;
+        height: 50px;
+        margin-top: 1%;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+
+    }
+    .coluna1
+    {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        margin-top: 1%;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .backspace
+    {
+        background-color: white;
+        width: 105px;
+        height: 70px;
+        margin-top: 5px;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .coluna2
+    {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        margin-top: 1%;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .tab
+    {
+        background-color: white;
+        width: 60px;
+        height: 70px;
+        margin-top: 5px;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .coluna3
+    {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        margin-top: 1%;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .lupa
+    {
+        background-color: white;
+        width: 105px;
+        height: 70px;
+        margin-top: 5px;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+
+    }
+    .enter
+    {
+        background-color: white;
+        width: 60px;
+        height: 70px;
+        margin-top: 5px;
+        display: flex;
+        font-size: 25px;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="teclado">
+        <div class="div1">
+            <div class="esc">ESC</div>
+        </div>
+
+        <br>
+        <div class="div2">
+            <div class="coluna1"> ~ <br> ` </div>
+            <div class="coluna1"> ! <br> 1</div>
+            <div class="coluna1"> @ <br> 2</div>
+            <div class="coluna1"> # <br> 3</div>
+            <div class="coluna1"> $ <br> 4</div>
+            <div class="coluna1"> % <br> 5</div>
+            <div class="coluna1"> ¨ <br> 6</div>
+            <div class="coluna1"> & <br> 7</div>
+            <div class="coluna1"> * <br> 8</div>
+            <div class="coluna1"> ( <br> 9</div>
+            <div class="coluna1"> ) <br> 0</div>
+            <div class="coluna1"> - <br> _</div>
+            <div class="coluna1"> + <br> =</div>
+            <div class="backspace"> backspace </div>
+        </div>
+
+        <br>
+
+        <div class="div3">
+            <div class="tab">TAB</div>
+            <div class="coluna2">Q</div>
+            <div class="coluna2">W</div>
+            <div class="coluna2">E</div>
+            <div class="coluna2">R</div>
+            <div class="coluna2">T</div>
+            <div class="coluna2">Y</div>
+            <div class="coluna2">U</div>
+            <div class="coluna2">I</div>
+            <div class="coluna2">O</div>
+            <div class="coluna2">P</div>
+            <div class="coluna2">{ <br> [</div>
+            <div class="coluna2">} <br> ]</div>
+            <div class="coluna2">| <br> \</div>
+        </div>
+
+        <br>
+
+        <div class="div4">
+            <div class="lupa">
+                <img src="lupa.png" width="40px">
+            </div>
+
+            <div class="div4">
+                <div class="coluna3">A</div>
+                <div class="coluna3">S</div>
+                <div class="coluna3">D</div>
+                <div class="coluna3">F</div>
+                <div class="coluna3">G</div>
+                <div class="coluna3">H</div>
+                <div class="coluna3">J</div>
+                <div class="coluna3">K</div>
+                <div class="coluna3">L</div>
+                <div class="coluna3">: <br> ;</div>
+                <div class="coluna3">"<br> '</div>
+                <div class="coluna3">enter</div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="div5">
+        
+        </div>
+
+        <br>
+
+        <div class="div6">
+            
+        </div>
+    </div>
+</body>
+</html>
